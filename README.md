@@ -1,0 +1,1 @@
+# Parkinson’s Prediction Project\nThis project trains multiple ML models on the UCI Parkinson’s dataset, compares performance, and deploys with Streamlit.
