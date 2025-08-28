@@ -248,4 +248,4 @@ with tab4:
             runpy.run_path("model_pipeline.py")
             st.success("✔️ Models retrained, check if new best model is better!")
             st.session_state.best_model, st.session_state.metrics = load_model_and_metrics()
-            st.experimental_rerun()
+            st.rerun()
